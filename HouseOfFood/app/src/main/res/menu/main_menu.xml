@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_main">
+        <item android:title="Home"
+            android:icon="@drawable/ic_home_24"
+            android:id="@+id/homeFragment"/>
+        <item android:title="Order"
+            android:icon="@drawable/ic_cart_24"
+            android:id="@+id/orderFragment"/>
+
+    </group>
+
+    <item android:title="Account" android:checkable="false">
+       <menu android:checkableBehavior="single"
+        android:id="@+id/group_logout">
+           <item android:title="Profile"
+               android:icon="@drawable/ic_user"
+               android:id="@+id/profileFragment"/>
+           <item android:title="Change Password"
+               android:icon="@drawable/ic_change_password_24"
+               android:id="@+id/changePasswordFragment"/>
+           <item android:title="Logout"
+               android:icon="@drawable/ic_log_out_24"
+            android:id="@+id/logoutFragment"/>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "299142139425",
+    "project_id": "house-of-food-ec6b9",
+    "storage_bucket": "house-of-food-ec6b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299142139425:android:4f4acace917f7cb8029d60",
+        "android_client_info": {
+          "package_name": "com.example.houseoffood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299142139425-dnrrum03ducfjafc2ckrn9h7sqv0513o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.houseoffood",
+            "certificate_hash": "70f1bcd886367846342f7c3c280f27a37d30f1a1"
+          }
+        },
+        {
+          "client_id": "299142139425-a6fn2pa0ucuuj5uqi6dsa43263neimov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnDGW9exMuonAiczFF4htTGuTFTZyHvVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299142139425-a6fn2pa0ucuuj5uqi6dsa43263neimov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
